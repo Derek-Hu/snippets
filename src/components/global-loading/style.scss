@@ -1,0 +1,80 @@
+@keyframes loadingRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadingDash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+
+@keyframes loadingColor {
+  100%,
+  0% {
+    stroke: #687785;
+  }
+}
+
+.loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(256, 256, 256, 0.7);
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+
+  &.visible {
+    visibility: visible;
+  }
+
+  &.inner-loading {
+    position: absolute;
+  }
+
+  .loader {
+    position: absolute;
+    width: 40px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    &:before {
+      content: '';
+      display: block;
+      padding-top: 100%;
+    }
+
+    .circular {
+      animation: loadingRotate 3s linear infinite;
+      height: 100%;
+      transform-origin: center center;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+    .path {
+      stroke-dasharray: 1, 200;
+      stroke-dashoffset: 0;
+      animation: loadingDash 1.52s ease-in-out infinite, loadingColor 6s ease-in-out infinite;
+      stroke-linecap: round;
+    }
+  }
+}

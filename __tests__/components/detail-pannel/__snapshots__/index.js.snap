@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab样式 1`] = `
+<_default>
+  <section
+    className="contentSection"
+  >
+    <div
+      className="contentSectionHeader"
+    />
+    <div
+      className="contentSectionMain"
+    />
+  </section>
+</_default>
+`;

@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`弹窗组件 无自定义函数，弹窗隐藏 1`] = `
+<ModalContainer
+  title="删除模板"
+  toggole={
+    <span
+      className="triggerPoint"
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      删除
+    </span>
+  }
+>
+  <div
+    onClick={[Function]}
+  >
+    <span
+      className="triggerPoint"
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      删除
+    </span>
+  </div>
+  <Modal
+    confirmLoading={false}
+    maskTransitionName="fade"
+    okType="primary"
+    onCancel={[Function]}
+    onOk={[Function]}
+    title="删除模板"
+    transitionName="zoom"
+    visible={false}
+    width={520}
+  >
+    <DialogWrap
+      closeIcon={
+        <span
+          className="ant-modal-close-x"
+        >
+          <Icon
+            className="ant-modal-close-icon"
+            type="close"
+          />
+        </span>
+      }
+      confirmLoading={false}
+      footer={
+        <LocaleReceiver
+          componentName="Modal"
+          defaultLocale={
+            Object {
+              "cancelText": "Cancel",
+              "justOkText": "OK",
+              "okText": "OK",
+            }
+          }
+        >
+          [Function]
+        </LocaleReceiver>
+      }
+      forceRender={false}
+      maskTransitionName="fade"
+      okType="primary"
+      onCancel={[Function]}
+      onClose={[Function]}
+      onOk={[Function]}
+      prefixCls="ant-modal"
+      title="删除模板"
+      transitionName="zoom"
+      visible={false}
+      width={520}
+      wrapClassName=""
+    />
+  </Modal>
+</ModalContainer>
+`;
+
+exports[`弹窗组件 点击触发弹窗 1`] = `
+<ModalContainer
+  onCancel={[MockFunction]}
+  onOk={[MockFunction]}
+  title="删除模板"
+  toggole={
+    <span
+      className="triggerPoint"
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      删除
+    </span>
+  }
+>
+  <div
+    onClick={[Function]}
+  >
+    <span
+      className="triggerPoint"
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      删除
+    </span>
+  </div>
+  <Modal
+    confirmLoading={false}
+    maskTransitionName="fade"
+    okType="primary"
+    onCancel={[Function]}
+    onOk={[Function]}
+    title="删除模板"
+    transitionName="zoom"
+    visible={false}
+    width={520}
+  >
+    <DialogWrap
+      closeIcon={
+        <span
+          className="ant-modal-close-x"
+        >
+          <Icon
+            className="ant-modal-close-icon"
+            type="close"
+          />
+        </span>
+      }
+      confirmLoading={false}
+      footer={
+        <LocaleReceiver
+          componentName="Modal"
+          defaultLocale={
+            Object {
+              "cancelText": "Cancel",
+              "justOkText": "OK",
+              "okText": "OK",
+            }
+          }
+        >
+          [Function]
+        </LocaleReceiver>
+      }
+      forceRender={false}
+      maskTransitionName="fade"
+      okType="primary"
+      onCancel={[Function]}
+      onClose={[Function]}
+      onOk={[Function]}
+      prefixCls="ant-modal"
+      title="删除模板"
+      transitionName="zoom"
+      visible={false}
+      width={520}
+      wrapClassName=""
+    />
+  </Modal>
+</ModalContainer>
+`;
+
+exports[`弹窗组件 确认函数出错时，弹窗隐藏 1`] = `
+<ModalContainer
+  onOk={[MockFunction]}
+  title="删除模板"
+  toggole={
+    <span
+      className="triggerPoint"
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      删除
+    </span>
+  }
+>
+  <div
+    onClick={[Function]}
+  >
+    <span
+      className="triggerPoint"
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      删除
+    </span>
+  </div>
+  <Modal
+    confirmLoading={false}
+    maskTransitionName="fade"
+    okType="primary"
+    onCancel={[Function]}
+    onOk={[Function]}
+    title="删除模板"
+    transitionName="zoom"
+    visible={false}
+    width={520}
+  >
+    <DialogWrap
+      closeIcon={
+        <span
+          className="ant-modal-close-x"
+        >
+          <Icon
+            className="ant-modal-close-icon"
+            type="close"
+          />
+        </span>
+      }
+      confirmLoading={false}
+      footer={
+        <LocaleReceiver
+          componentName="Modal"
+          defaultLocale={
+            Object {
+              "cancelText": "Cancel",
+              "justOkText": "OK",
+              "okText": "OK",
+            }
+          }
+        >
+          [Function]
+        </LocaleReceiver>
+      }
+      forceRender={false}
+      maskTransitionName="fade"
+      okType="primary"
+      onCancel={[Function]}
+      onClose={[Function]}
+      onOk={[Function]}
+      prefixCls="ant-modal"
+      title="删除模板"
+      transitionName="zoom"
+      visible={false}
+      width={520}
+      wrapClassName=""
+    />
+  </Modal>
+</ModalContainer>
+`;

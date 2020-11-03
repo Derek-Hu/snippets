@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`空白数据时组件 1`] = `
+<_default>
+  <OriginEmpty
+    description="No Data Yet!"
+    image="null.png"
+    imageStyle={
+      Object {
+        "height": 40,
+      }
+    }
+  >
+    <LocaleReceiver
+      componentName="Empty"
+    >
+      <div
+        className="ant-empty"
+      >
+        <div
+          className="ant-empty-image"
+          style={
+            Object {
+              "height": 40,
+            }
+          }
+        >
+          <img
+            alt="No Data Yet!"
+            src="null.png"
+          />
+        </div>
+        <p
+          className="ant-empty-description"
+        >
+          No Data Yet!
+        </p>
+      </div>
+    </LocaleReceiver>
+  </OriginEmpty>
+</_default>
+`;

@@ -1,0 +1,47 @@
+.sysWrapper {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  padding: 10px;
+  .sysTop {
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+  .sysDown {
+    .sysDownWrap {
+      margin: 15px auto;
+    }
+  }
+  .nextStep {
+    float: right;
+  }
+  .addBtn {
+    margin-right: 30px;
+  }
+}
+
+.processBtn {
+  width: 100%;
+}
+
+.processItem {
+  margin-top: 10px;
+}
+
+#lightboxBackdrop {
+  background-color: rgba(51, 51, 51, 0.98);
+}
+
+.thumbnail {
+  display: inline-block;
+  width: 200px;
+  height: 90px;
+  margin-top: 5px;
+}
+
+.litghtBox {
+  background-color: rgba(255, 255, 255, 1);
+}

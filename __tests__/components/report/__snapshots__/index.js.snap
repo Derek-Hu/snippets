@@ -1,0 +1,1037 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`报告自动生成 罗马经营数据报告 1`] = `
+Array [
+  <_default
+    title="报告信息"
+  >
+    <Descriptions
+      column={
+        Object {
+          "lg": 3,
+          "md": 3,
+          "sm": 2,
+          "xl": 3,
+          "xs": 1,
+          "xxl": 3,
+        }
+      }
+      size="default"
+    >
+      <DescriptionsItem
+        key="createTime"
+        label="报告创建时间"
+      >
+        2020-07-23T18:27:39.568
+      </DescriptionsItem>
+      <DescriptionsItem
+        key="updateTime"
+        label="报告更新时间"
+      >
+        2020-07-23T18:27:39.568
+      </DescriptionsItem>
+      <DescriptionsItem
+        key="ssn"
+        label="身份证"
+      >
+        310103198712162061
+      </DescriptionsItem>
+    </Descriptions>
+  </_default>,
+  <_default
+    title="个人信息"
+  >
+    <Descriptions
+      column={
+        Object {
+          "lg": 3,
+          "md": 3,
+          "sm": 2,
+          "xl": 3,
+          "xs": 1,
+          "xxl": 3,
+        }
+      }
+      size="default"
+    >
+      <DescriptionsItem
+        key="name"
+        label="姓名"
+      >
+        沈故海
+      </DescriptionsItem>
+      <DescriptionsItem
+        key="idNumber"
+        label="身份证"
+      >
+        310103198712162061
+      </DescriptionsItem>
+    </Descriptions>
+  </_default>,
+  <Tabs
+    defaultActiveKey={0}
+    hideAdd={false}
+    tabPosition="top"
+  >
+    <TabPane
+      key="0"
+      placeholder={null}
+      tab="银行卡号"
+    >
+      <_default
+        title="银行卡摘要信息"
+      >
+        <Descriptions
+          column={
+            Object {
+              "lg": 3,
+              "md": 3,
+              "sm": 2,
+              "xl": 3,
+              "xs": 1,
+              "xxl": 3,
+            }
+          }
+          size="default"
+        >
+          <DescriptionsItem
+            key="bankCard"
+            label="银行卡号"
+          >
+            6222081102003655479
+          </DescriptionsItem>
+          <DescriptionsItem
+            key="isValid"
+            label="是否有效"
+          >
+            1
+          </DescriptionsItem>
+          <DescriptionsItem
+            key="openingBank"
+            label="开户行"
+          >
+            中国工商银行(102100099996)
+          </DescriptionsItem>
+          <DescriptionsItem
+            key="submiitTime"
+            label="流水提交时间"
+          >
+            2020-07-08 10:27:39
+          </DescriptionsItem>
+          <DescriptionsItem
+            key="carRelatedSpending"
+            label="识别流水总额"
+          >
+            1,000,000.00
+          </DescriptionsItem>
+        </Descriptions>
+      </_default>
+    </TabPane>
+  </Tabs>,
+]
+`;
+
+exports[`报告自动生成 获取网银报告数据 1`] = `
+<Tabs
+  defaultActiveKey={0}
+  hideAdd={false}
+  tabPosition="top"
+>
+  <TabPane
+    key="0"
+    placeholder={null}
+    tab="2072"
+  >
+    <_default
+      title="报告信息"
+    >
+      <Descriptions
+        column={
+          Object {
+            "lg": 3,
+            "md": 3,
+            "sm": 2,
+            "xl": 3,
+            "xs": 1,
+            "xxl": 3,
+          }
+        }
+        size="default"
+      >
+        <DescriptionsItem
+          key="card"
+          label="银行卡号"
+        >
+          2072
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="bank"
+          label="银行名称"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="name"
+          label="持卡人姓名"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="type"
+          label="账户类型"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="openDate"
+          label="开卡时间"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="cashLimit"
+          label="当前余额(储蓄卡，单位：分)"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="balance"
+          label="当前余额(储蓄卡，单位：分)"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="consumeLimit"
+          label="消费额度(信用卡，单位：分)"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="usableConsumeLimit"
+          label="可用消费额度(信用卡，单位：分)"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="userName"
+          label="用户填写姓名"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="userIdCard"
+          label="用户填写身份证"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="userPhone"
+          label="用户填写手机号"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="nameMatch"
+          label="姓名是否一致"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="idCardMatch"
+          label="身份证是否一致"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="averageSalary"
+          label="平均工资"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="salaryStability"
+          label="工资稳定性水平"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="averageRepaymentPerMonth"
+          label="每月平均还款"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="foreignConsumeCount"
+          label="外币消费总笔数(6期)"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="overdueCount"
+          label="逾期期数(6期)"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="overdueAmount"
+          label="逾期金额总和(分)(6期)"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="maxSeriesOverdueCount"
+          label="最大连续逾期期数(12期)"
+        >
+          0
+        </DescriptionsItem>
+      </Descriptions>
+    </_default>
+    <_default
+      title="每月汇总列表，共12个月（储蓄卡）"
+    >
+      <Table
+        bordered={false}
+        childrenColumnName="children"
+        className=""
+        columns={
+          Array [
+            Object {
+              "dataIndex": "month",
+              "key": "month",
+              "render": [Function],
+              "title": "月份",
+            },
+            Object {
+              "dataIndex": "outflowCount",
+              "key": "outflowCount",
+              "render": [Function],
+              "title": "流出总笔数",
+            },
+            Object {
+              "dataIndex": "outflowSumAmount",
+              "key": "outflowSumAmount",
+              "render": [Function],
+              "title": "流出总金额(分)",
+            },
+            Object {
+              "dataIndex": "outflowMaxAmount",
+              "key": "outflowMaxAmount",
+              "render": [Function],
+              "title": "最大单笔流出金额",
+            },
+            Object {
+              "dataIndex": "inflowCount",
+              "key": "inflowCount",
+              "render": [Function],
+              "title": "流入总笔数",
+            },
+            Object {
+              "dataIndex": "inflowSumAmount",
+              "key": "inflowSumAmount",
+              "render": [Function],
+              "title": "流入总金额(分)",
+            },
+            Object {
+              "dataIndex": "inflowMaxAmount",
+              "key": "inflowMaxAmount",
+              "render": [Function],
+              "title": "最大单笔流入金额",
+            },
+          ]
+        }
+        dataSource={
+          Array [
+            Object {
+              "inflowCount": 0,
+              "inflowMaxAmount": 0,
+              "inflowSumAmount": 0,
+              "month": "string",
+              "outflowCount": 0,
+              "outflowMaxAmount": 0,
+              "outflowSumAmount": 0,
+            },
+          ]
+        }
+        indentSize={20}
+        loading={false}
+        locale={Object {}}
+        pagination={false}
+        rowKey="key"
+        showHeader={true}
+        size="default"
+        sortDirections={
+          Array [
+            "ascend",
+            "descend",
+          ]
+        }
+        useFixedHeader={false}
+      />
+    </_default>
+    <_default
+      title="结息信息列表"
+    >
+      <Table
+        bordered={false}
+        childrenColumnName="children"
+        className=""
+        columns={
+          Array [
+            Object {
+              "dataIndex": "date",
+              "key": "date",
+              "render": [Function],
+              "title": "日期",
+            },
+            Object {
+              "dataIndex": "amount",
+              "key": "amount",
+              "render": [Function],
+              "title": "金额(分)",
+            },
+          ]
+        }
+        dataSource={
+          Array [
+            Object {
+              "amount": 0,
+              "date": "string",
+            },
+          ]
+        }
+        indentSize={20}
+        loading={false}
+        locale={Object {}}
+        pagination={false}
+        rowKey="key"
+        showHeader={true}
+        size="default"
+        sortDirections={
+          Array [
+            "ascend",
+            "descend",
+          ]
+        }
+        useFixedHeader={false}
+      />
+    </_default>
+    <_default
+      title="工资列表"
+    >
+      <Table
+        bordered={false}
+        childrenColumnName="children"
+        className=""
+        columns={
+          Array [
+            Object {
+              "dataIndex": "date",
+              "key": "date",
+              "render": [Function],
+              "title": "日期",
+            },
+            Object {
+              "dataIndex": "amount",
+              "key": "amount",
+              "render": [Function],
+              "title": "金额(分)",
+            },
+          ]
+        }
+        dataSource={
+          Array [
+            Object {
+              "amount": 0,
+              "date": "string",
+            },
+          ]
+        }
+        indentSize={20}
+        loading={false}
+        locale={Object {}}
+        pagination={false}
+        rowKey="key"
+        showHeader={true}
+        size="default"
+        sortDirections={
+          Array [
+            "ascend",
+            "descend",
+          ]
+        }
+        useFixedHeader={false}
+      />
+    </_default>
+    <_default
+      title="第三方借贷"
+    >
+      <Table
+        bordered={false}
+        childrenColumnName="children"
+        className=""
+        columns={
+          Array [
+            Object {
+              "dataIndex": "organization",
+              "key": "organization",
+              "render": [Function],
+              "title": "机构名称",
+            },
+          ]
+        }
+        dataSource={
+          Array [
+            Object {
+              "organization": "string",
+              "repayments": Array [
+                Object {
+                  "amount": 0,
+                  "date": "string",
+                },
+              ],
+            },
+          ]
+        }
+        expandedRowRender={[Function]}
+        indentSize={20}
+        loading={false}
+        locale={Object {}}
+        pagination={false}
+        rowKey="key"
+        showHeader={true}
+        size="default"
+        sortDirections={
+          Array [
+            "ascend",
+            "descend",
+          ]
+        }
+        useFixedHeader={false}
+      />
+    </_default>
+    <_default
+      title="账单（信用卡卡报告字段）"
+    >
+      <Table
+        bordered={false}
+        childrenColumnName="children"
+        className=""
+        columns={
+          Array [
+            Object {
+              "dataIndex": "billDate",
+              "key": "billDate",
+              "render": [Function],
+              "title": "账单出账",
+            },
+            Object {
+              "dataIndex": "amount",
+              "key": "amount",
+              "render": [Function],
+              "title": "账单金额(单位：分)",
+            },
+            Object {
+              "dataIndex": "limitRate",
+              "key": "limitRate",
+              "render": [Function],
+              "title": "额度使用率",
+            },
+            Object {
+              "dataIndex": "payment",
+              "key": "payment",
+              "render": [Function],
+              "title": "实际还款金额(分)",
+            },
+            Object {
+              "dataIndex": "repaymentRate",
+              "key": "repaymentRate",
+              "render": [Function],
+              "title": "还款率(＝实际还款金额／账单金额)",
+            },
+            Object {
+              "dataIndex": "consumeCount",
+              "key": "consumeCount",
+              "render": [Function],
+              "title": "消费笔数",
+            },
+          ]
+        }
+        dataSource={
+          Array [
+            Object {
+              "amount": 0,
+              "billDate": "string",
+              "consumeCount": 0,
+              "limitRate": 0,
+              "payment": 0,
+              "repaymentRate": 0,
+            },
+          ]
+        }
+        indentSize={20}
+        loading={false}
+        locale={Object {}}
+        pagination={false}
+        rowKey="key"
+        showHeader={true}
+        size="default"
+        sortDirections={
+          Array [
+            "ascend",
+            "descend",
+          ]
+        }
+        useFixedHeader={false}
+      />
+    </_default>
+  </TabPane>
+  <TabPane
+    key="1"
+    placeholder={null}
+    tab="1118"
+  >
+    <_default
+      title="报告信息"
+    >
+      <Descriptions
+        column={
+          Object {
+            "lg": 3,
+            "md": 3,
+            "sm": 2,
+            "xl": 3,
+            "xs": 1,
+            "xxl": 3,
+          }
+        }
+        size="default"
+      >
+        <DescriptionsItem
+          key="card"
+          label="银行卡号"
+        >
+          1118
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="bank"
+          label="银行名称"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="name"
+          label="持卡人姓名"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="type"
+          label="账户类型"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="openDate"
+          label="开卡时间"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="cashLimit"
+          label="当前余额(储蓄卡，单位：分)"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="balance"
+          label="当前余额(储蓄卡，单位：分)"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="consumeLimit"
+          label="消费额度(信用卡，单位：分)"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="usableConsumeLimit"
+          label="可用消费额度(信用卡，单位：分)"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="userName"
+          label="用户填写姓名"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="userIdCard"
+          label="用户填写身份证"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="userPhone"
+          label="用户填写手机号"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="nameMatch"
+          label="姓名是否一致"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="idCardMatch"
+          label="身份证是否一致"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="averageSalary"
+          label="平均工资"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="salaryStability"
+          label="工资稳定性水平"
+        >
+          string
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="averageRepaymentPerMonth"
+          label="每月平均还款"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="foreignConsumeCount"
+          label="外币消费总笔数(6期)"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="overdueCount"
+          label="逾期期数(6期)"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="overdueAmount"
+          label="逾期金额总和(分)(6期)"
+        >
+          0
+        </DescriptionsItem>
+        <DescriptionsItem
+          key="maxSeriesOverdueCount"
+          label="最大连续逾期期数(12期)"
+        >
+          0
+        </DescriptionsItem>
+      </Descriptions>
+    </_default>
+    <_default
+      title="每月汇总列表，共12个月（储蓄卡）"
+    >
+      <Table
+        bordered={false}
+        childrenColumnName="children"
+        className=""
+        columns={
+          Array [
+            Object {
+              "dataIndex": "month",
+              "key": "month",
+              "render": [Function],
+              "title": "月份",
+            },
+            Object {
+              "dataIndex": "outflowCount",
+              "key": "outflowCount",
+              "render": [Function],
+              "title": "流出总笔数",
+            },
+            Object {
+              "dataIndex": "outflowSumAmount",
+              "key": "outflowSumAmount",
+              "render": [Function],
+              "title": "流出总金额(分)",
+            },
+            Object {
+              "dataIndex": "outflowMaxAmount",
+              "key": "outflowMaxAmount",
+              "render": [Function],
+              "title": "最大单笔流出金额",
+            },
+            Object {
+              "dataIndex": "inflowCount",
+              "key": "inflowCount",
+              "render": [Function],
+              "title": "流入总笔数",
+            },
+            Object {
+              "dataIndex": "inflowSumAmount",
+              "key": "inflowSumAmount",
+              "render": [Function],
+              "title": "流入总金额(分)",
+            },
+            Object {
+              "dataIndex": "inflowMaxAmount",
+              "key": "inflowMaxAmount",
+              "render": [Function],
+              "title": "最大单笔流入金额",
+            },
+          ]
+        }
+        dataSource={
+          Array [
+            Object {
+              "inflowCount": 0,
+              "inflowMaxAmount": 0,
+              "inflowSumAmount": 0,
+              "month": "string",
+              "outflowCount": 0,
+              "outflowMaxAmount": 0,
+              "outflowSumAmount": 0,
+            },
+          ]
+        }
+        indentSize={20}
+        loading={false}
+        locale={Object {}}
+        pagination={false}
+        rowKey="key"
+        showHeader={true}
+        size="default"
+        sortDirections={
+          Array [
+            "ascend",
+            "descend",
+          ]
+        }
+        useFixedHeader={false}
+      />
+    </_default>
+    <_default
+      title="结息信息列表"
+    >
+      <Table
+        bordered={false}
+        childrenColumnName="children"
+        className=""
+        columns={
+          Array [
+            Object {
+              "dataIndex": "date",
+              "key": "date",
+              "render": [Function],
+              "title": "日期",
+            },
+            Object {
+              "dataIndex": "amount",
+              "key": "amount",
+              "render": [Function],
+              "title": "金额(分)",
+            },
+          ]
+        }
+        dataSource={
+          Array [
+            Object {
+              "amount": 0,
+              "date": "string",
+            },
+          ]
+        }
+        indentSize={20}
+        loading={false}
+        locale={Object {}}
+        pagination={false}
+        rowKey="key"
+        showHeader={true}
+        size="default"
+        sortDirections={
+          Array [
+            "ascend",
+            "descend",
+          ]
+        }
+        useFixedHeader={false}
+      />
+    </_default>
+    <_default
+      title="工资列表"
+    >
+      <Table
+        bordered={false}
+        childrenColumnName="children"
+        className=""
+        columns={
+          Array [
+            Object {
+              "dataIndex": "date",
+              "key": "date",
+              "render": [Function],
+              "title": "日期",
+            },
+            Object {
+              "dataIndex": "amount",
+              "key": "amount",
+              "render": [Function],
+              "title": "金额(分)",
+            },
+          ]
+        }
+        dataSource={
+          Array [
+            Object {
+              "amount": 0,
+              "date": "string",
+            },
+          ]
+        }
+        indentSize={20}
+        loading={false}
+        locale={Object {}}
+        pagination={false}
+        rowKey="key"
+        showHeader={true}
+        size="default"
+        sortDirections={
+          Array [
+            "ascend",
+            "descend",
+          ]
+        }
+        useFixedHeader={false}
+      />
+    </_default>
+    <_default
+      title="第三方借贷"
+    >
+      <Table
+        bordered={false}
+        childrenColumnName="children"
+        className=""
+        columns={
+          Array [
+            Object {
+              "dataIndex": "organization",
+              "key": "organization",
+              "render": [Function],
+              "title": "机构名称",
+            },
+          ]
+        }
+        dataSource={
+          Array [
+            Object {
+              "organization": "string",
+              "repayments": Array [
+                Object {
+                  "amount": 0,
+                  "date": "string",
+                },
+              ],
+            },
+          ]
+        }
+        expandedRowRender={[Function]}
+        indentSize={20}
+        loading={false}
+        locale={Object {}}
+        pagination={false}
+        rowKey="key"
+        showHeader={true}
+        size="default"
+        sortDirections={
+          Array [
+            "ascend",
+            "descend",
+          ]
+        }
+        useFixedHeader={false}
+      />
+    </_default>
+    <_default
+      title="账单（信用卡卡报告字段）"
+    >
+      <Table
+        bordered={false}
+        childrenColumnName="children"
+        className=""
+        columns={
+          Array [
+            Object {
+              "dataIndex": "billDate",
+              "key": "billDate",
+              "render": [Function],
+              "title": "账单出账",
+            },
+            Object {
+              "dataIndex": "amount",
+              "key": "amount",
+              "render": [Function],
+              "title": "账单金额(单位：分)",
+            },
+            Object {
+              "dataIndex": "limitRate",
+              "key": "limitRate",
+              "render": [Function],
+              "title": "额度使用率",
+            },
+            Object {
+              "dataIndex": "payment",
+              "key": "payment",
+              "render": [Function],
+              "title": "实际还款金额(分)",
+            },
+            Object {
+              "dataIndex": "repaymentRate",
+              "key": "repaymentRate",
+              "render": [Function],
+              "title": "还款率(＝实际还款金额／账单金额)",
+            },
+            Object {
+              "dataIndex": "consumeCount",
+              "key": "consumeCount",
+              "render": [Function],
+              "title": "消费笔数",
+            },
+          ]
+        }
+        dataSource={
+          Array [
+            Object {
+              "amount": 0,
+              "billDate": "string",
+              "consumeCount": 0,
+              "limitRate": 0,
+              "payment": 0,
+              "repaymentRate": 0,
+            },
+          ]
+        }
+        indentSize={20}
+        loading={false}
+        locale={Object {}}
+        pagination={false}
+        rowKey="key"
+        showHeader={true}
+        size="default"
+        sortDirections={
+          Array [
+            "ascend",
+            "descend",
+          ]
+        }
+        useFixedHeader={false}
+      />
+    </_default>
+  </TabPane>
+</Tabs>
+`;

@@ -1,0 +1,194 @@
+{
+    "name": "rc-frontend",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "keywords": [],
+    "license": "ISC",
+    "author": "",
+    "engines": {
+        "node": ">=8.16.0"
+    },
+    "scripts": {
+        "build": "cross-env AppEnv=production INLINE_RUNTIME_CHUNK=true GENERATE_SOURCEMAP=false react-app-rewired build",
+        "code:prettier": "npm run prettier -- src/codegen/service/**/*.ts",
+        "prettier:locale": "npm run prettier -- src/locale/**/*.ts",
+        "deploy": "node deploy.js",
+        "deploy_4000": "cross-env AppEnv=npm502_4000 node deploy.js",
+        "deploy_4001": "cross-env AppEnv=npm502_4001 node deploy.js",
+        "deploy_4002": "cross-env AppEnv=npm502_4002 node deploy.js",
+        "detect": "jscpd -b ./src/",
+        "dll": "webpack --config webpack.dll.config.js",
+        "eslint": "eslint *.js --fix",
+        "prettier": "prettier --single-quote --write",
+        "fix-memory-limit": "cross-env LIMIT=4096 increase-memory-limit",
+        "sort-package-json": "sort-package-json",
+        "start": "react-app-rewired start",
+        "start:yapi": "cross-env AppEnv=yapi react-app-rewired start",
+        "test": "react-app-rewired test --env=jsdom --coverage",
+        "test:only": "react-app-rewired test --env=jsdom"
+    },
+    "jest": {
+        "clearMocks": true,
+        "collectCoverageFrom": [
+            "src/**/*.{js,jsx,ts,tsx}",
+            "!<rootDir>/node_modules/",
+            "!src/assets/**/*.*",
+            "!src/codegen/**/*.*"
+        ],
+        "globals": {},
+        "coverageDirectory": "coverage",
+        "moduleNameMapper": {
+            "^~(.*)$": "<rootDir>/src$1",
+            "^root(.*)$": "<rootDir>/src$1",
+            "^.+\\.(css|scss|less|sass)$": "identity-obj-proxy"
+        },
+        "setupFiles": [
+            "<rootDir>/.jest/register-context.js",
+            "<rootDir>/.jest/jestsetup.js"
+        ],
+        "snapshotSerializers": [
+            "enzyme-to-json/serializer"
+        ],
+        "testPathIgnorePatterns": [
+            "/node_modules/"
+        ],
+        "transform": {
+            "^.+\\.js$": "babel-jest"
+        }
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "linters": {
+            "src/**/*.{js,jsx,ts,tsx,json,css,less,scss,md}": [
+                "npm run prettier",
+                "git add"
+            ]
+        }
+    },
+    "jscpd": {
+        "threshold": 0.1,
+        "reporters": [
+            "html",
+            "console"
+        ],
+        "blame": true,
+        "ignore": ["src/__tests__/**/*.*", "src/components/webVOWL/**/*.*"],
+        "strict": "strict",
+        "absolute": false,
+        "gitignore": true
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "dependencies": {
+        "@antv/data-set": "^0.8.9",
+        "@antv/g2": "^3.0.12",
+        "@antv/g6": "^3.5.0",
+        "antd": "3.19.8",
+        "async-validator": "^3.3.0",
+        "babel-polyfill": "^6.26.0",
+        "classnames": "^2.2.5",
+        "decimal.js": "^10.2.0",
+        "dva": "^2.4.1",
+        "dva-loading": "^2.0.6",
+        "echarts": "4.0.4",
+        "echarts-for-react": "^2.0.15-beta.0",
+        "gg-editor": "^3.1.1",
+        "http-proxy-middleware": "^1.0.3",
+        "js-base64": "^2.4.5",
+        "lodash": "^4.17.15",
+        "moment": "^2.22.1",
+        "query-string": "^6.1.0",
+        "rc-field-form": "^1.4.4",
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2",
+        "react-images": "^0.5.17",
+        "react-intl": "^3.9.2",
+        "react-loadable": "^5.5.0",
+        "uuid": "^3.4.0"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.8.3",
+        "@babel/plugin-proposal-decorators": "^7.4.4",
+        "@types/isomorphic-fetch": "0.0.35",
+        "@types/lodash": "^4.14.159",
+        "@types/webpack-env": "^1.15.2",
+        "@typescript-eslint/eslint-plugin": "^3.8.0",
+        "@typescript-eslint/parser": "^3.9.0",
+        "acorn": "^7.1.0",
+        "babel-plugin-import": "^1.12.0",
+        "babel-plugin-require-context-hook": "^1.0.0",
+        "cache-loader": "^4.1.0",
+        "circular-dependency-plugin": "^5.0.2",
+        "cross-env": "^5.1.6",
+        "customize-cra": "^0.8.0",
+        "d3": "^3.5.17",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.2",
+        "enzyme-to-json": "^3.5.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-config-react": "^1.1.7",
+        "eslint-plugin-prettier": "^3.1.4",
+        "express": "^4.17.1",
+        "git-rev-sync": "^1.12.0",
+        "handlebars": "^4.5.0",
+        "husky": "^1.3.1",
+        "identity-obj-proxy": "^3.0.0",
+        "jscpd": "^2.0.16",
+        "jscpd-badge-reporter": "^1.1.3",
+        "less": "^3.9.0",
+        "less-loader": "^4.1.0",
+        "lint-staged": "^8.1.1",
+        "meta.macro": "^1.0.8",
+        "moment-locales-webpack-plugin": "^1.1.0",
+        "node-sass": "^4.12.0",
+        "opener": "^1.5.1",
+        "prettier": "^1.19.1",
+        "react-app-rewire-hot-loader": "^2.0.1",
+        "react-app-rewire-multiple-entry": "^2.1.0",
+        "react-app-rewired": "^2.1.3",
+        "react-hot-loader": "^4.12.21",
+        "react-scripts": "^2.1.8",
+        "react-test-renderer": "^16.13.1",
+        "sort-package-json": "^1.22.1",
+        "swagger-escode": "^1.0.3",
+        "thread-loader": "^2.1.3",
+        "tslint": "^6.1.3",
+        "tslint-loader": "^3.6.0",
+        "typescript": "^3.9.7",
+        "typescript-plugin-css-modules": "^2.4.0",
+        "webpack-bundle-analyzer": "^3.6.0",
+        "webpack-cli": "^3.3.2",
+        "webpack-filter-warnings-plugin": "^1.2.1"
+    },
+    "dr": {
+        "branch": {
+            "demo": "master",
+            "production": "tag"
+        },
+        "swagger": "https://rbms-demo.corp.dianrong.com/swagger-ui.html",
+        "mockserver": "http://dom001-dev.b8.dianrong.io:3000/project/244/interface/api",
+        "shortName": "RBMS",
+        "jenkins": {
+            "4000": "http://npm501.dc.dianrong.com:8080/view/Sales-Platform/job/rc-frontend/job/npm502%204000%20%E5%BC%80%E5%8F%91dev%E7%8E%AF%E5%A2%83/",
+            "4001": "http://npm501.dc.dianrong.com:8080/view/Sales-Platform/job/rc-frontend/job/npm502%204001%20%E5%BC%80%E5%8F%91dev%E7%8E%AF%E5%A2%83/",
+            "demo": "https://jenkins-b8.corp.dianrong.com/job/DianRong/job/demo/job/rc-frontend/"
+        }
+    },
+    "uploadParams": [
+        {
+            "name": "rc-frontend",
+            "path": "rc-frontend",
+            "folder": "build",
+            "description": "RISK Center RBMS"
+        }
+    ]
+}

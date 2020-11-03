@@ -1,0 +1,278 @@
+.controller {
+  font-size: 25px;
+}
+
+:global {
+  .searchTools {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    z-index: 999;
+  }
+  .hidden-in-export {
+    display: none;
+  }
+  p.imageHolder {
+    visibility: hidden;
+  }
+  #webVowlContent {
+    position: relative;
+    p.imageHolder {
+      visibility: visible;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%);
+    }
+  }
+  #webVowlContent.imageFormat {
+    position: fixed;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+  }
+  #webVowlContent.imageFormat #canvasArea {
+    visibility: hidden;
+  }
+  #webVowlContent.imageFormat.done {
+    visibility: visible;
+  }
+  #webVowlContent.imageFormat.done #canvasArea {
+    visibility: visible;
+  }
+  #zoomInButton {
+    margin: 10px 0 0 2px;
+  }
+  #containerForLeftSideBar,
+  #leftSideBarCollapseButton,
+  #scrollRightButton,
+  #scrollLeftButton,
+  #loadingInfo_msgBox,
+  #detailsArea,
+  #sidebarExpandButton,
+  #accordion-container-summary,
+  #accordion-trigger-summary {
+    display: none;
+  }
+  // 以下样式需在文件中重复定义，导出图片时需要使用到
+  // src/components/webVOWL/app/js/menu/exportMenu.js#inlineVowlStyles
+  #graph {
+    rect.focused,
+    circle.focused {
+      stroke-width: 2;
+    }
+    .nodeContainer {
+      circle.outer {
+        r: 50;
+      }
+      circle.middle {
+        r: 48;
+      }
+      circle.inner {
+        r: 48;
+      }
+      .node image {
+        x: -16;
+        y: -42;
+        position: absolute;
+        visibility: hidden;
+      }
+      .node.blue image.blue,
+      .node.gray image.gray,
+      .node.red image.red {
+        visibility: visible;
+      }
+      .node.layer text {
+        opacity: 0.5;
+      }
+      .node.layer text.layerLabel {
+        opacity: 1;
+      }
+      .node.layer text.layerLabel tspan {
+        font-size: 18px;
+      }
+      .node.red circle.layer {
+        r: 50;
+        fill: red;
+        stroke: red;
+      }
+      .node.blue circle.layer {
+        r: 50;
+        fill: #35bfaf;
+        stroke: #35bfaf;
+      }
+      .node.gray circle.layer {
+        r: 50;
+        fill: gray;
+        stroke: gray;
+      }
+      .node.noAid circle {
+        fill: #d5e6ff;
+        stroke: #d5e6ff;
+        // stroke-width: 0;
+      }
+      .node.hasAidNotRealName circle {
+        fill: #abccff;
+        // stroke-width: 0;
+        stroke: #abccff;
+      }
+      .node.hasAidWithRealName circle {
+        fill: #abccff;
+        stroke: #abccff;
+        // stroke-width: 0;
+      }
+      .node.hasSuspectEntity circle {
+        fill: #999;
+        stroke: #999;
+        // stroke-width: 0;
+      }
+
+      .node.whiteEntity circle {
+        fill: #98ff65;
+        stroke: #98ff65;
+        // stroke-width: 0;
+      }
+
+      .node.blackEntity circle {
+        fill: #000;
+        stroke: #000;
+        // stroke-width: 0;
+      }
+
+      .node.blackEntity tspan,
+      .node.hasSuspectEntity tspan {
+        fill: #fff;
+      }
+
+      .node.hasRisk {
+        circle.inner {
+          stroke-width: 0;
+        }
+        circle.middle {
+          stroke-width: 0;
+        }
+        circle.outer {
+          fill: #abccff;
+          stroke-dasharray: 5;
+        }
+        circle.focused {
+          stroke-dasharray: 0;
+        }
+      }
+      .node.overDue {
+        circle.outer {
+          stroke: #9f9f9f;
+          r: 50;
+          fill: #9f9f9f;
+          stroke-width: 0;
+        }
+
+        circle.middle {
+          stroke-width: 0;
+          r: 45;
+          fill: #9f9f9f;
+        }
+        circle.inner {
+          fill: #000;
+          stroke-width: 0;
+          r: 40;
+        }
+        circle.focused {
+          stroke-width: 2;
+        }
+      }
+      .node.antiOrg {
+        circle.outer {
+          stroke: #000;
+          r: 50;
+          fill: #fff;
+        }
+
+        circle.middle {
+          stroke: #000;
+          r: 45;
+          fill: #fff;
+        }
+        circle.inner {
+          fill: #838383;
+          stroke-width: 8;
+          stroke: #fff;
+          r: 40;
+        }
+        circle.focused {
+          stroke-width: 2;
+        }
+      }
+      .node.antiTeam {
+        circle.outer {
+          stroke-width: 2;
+          fill: #fff;
+          r: 50;
+        }
+
+        circle.middle {
+          stroke-width: 0;
+          r: 45;
+          fill: #fff;
+        }
+        circle.inner {
+          fill: #838383;
+          stroke-width: 0;
+          r: 45;
+        }
+        circle.focused {
+          stroke-width: 2;
+        }
+      }
+
+      .node.overDue tspan,
+      .node.antiOrg tspan,
+      .node.antiTeam tspan {
+        fill: #fff;
+      }
+      .node.deviceLocation rect {
+        fill: #fff;
+        stroke-dasharray: 2;
+        stroke-width: 1;
+      }
+      .node.deviceLocation.black rect {
+        fill: #000;
+      }
+      .node.deviceLocation.gray rect {
+        fill: #999;
+      }
+      .node.deviceLocation.green rect {
+        fill: #98ff65;
+      }
+
+      .node.deviceLocation.green text {
+        fill: #000;
+      }
+      .node.deviceLocation.black text,
+      .node.deviceLocation.gray text {
+        fill: #fff;
+      }
+
+      .node.deviceLocation rect.focused {
+        stroke-width: 2;
+      }
+    }
+
+    .nodeContainer .node.rootEntity circle {
+      stroke: #9900ff;
+      stroke-width: 2 !important;
+    }
+    .labelGroup rect.focused {
+      stroke-width: 0;
+    }
+    .labelGroup.action rect {
+      fill: #ffc81b;
+    }
+    .labelGroup.deviceLocation rect {
+      fill: #abccff;
+    }
+    .labelGroup.relation rect {
+      fill: #8fbc62;
+    }
+  }
+}

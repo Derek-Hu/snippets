@@ -1,0 +1,26 @@
+export type MODULECODE =
+  | 'DATA_EXAMINE'
+  | 'TELEPHONE_REVIEW'
+  | 'NOT_EDIT_TELEPHONE_REVIEW'
+  | 'FILE_REVIEW'
+  | 'PERSONAL_GUARANTEE'
+  | 'PRICING'
+  | 'APPROVAL_INFORMATION'
+  | 'APPROVAL_INFORMATION_NOT_EDIT'
+  | 'PRE_SETTLEMENT'
+  | 'DEDUCTION_ACCOUNT'
+  | 'SIGN_CONDITION'
+  | 'PERSONAL_LOAN_MATCH'
+  | 'BUSINESS_LOAN_MATCH'
+  | 'REVIEW_COMMENT'
+  | 'JOB_COMMENT'
+  | 'ORDER_OPERATION_LOG'
+  | 'BORROWER_ORDER_INFO'
+  | 'FILE_UPLOAD';
+
+export interface I审批模块编辑配置项 {
+  /** 审核模块配置设定项，不同的审核模块各自解读 */
+  configItems?: Object;
+  /** 审核模块代码 */
+  moduleCode?: MODULECODE;
+}

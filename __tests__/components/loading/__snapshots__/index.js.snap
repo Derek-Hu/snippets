@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading样式 1`] = `
+<Loding>
+  <div
+    className="spin-container"
+  >
+    <Spin
+      size="default"
+      spinning={true}
+      wrapperClassName=""
+    >
+      <div
+        className="ant-spin ant-spin-spinning"
+      >
+        <span
+          className="ant-spin-dot ant-spin-dot-spin"
+        >
+          <i
+            className="ant-spin-dot-item"
+          />
+          <i
+            className="ant-spin-dot-item"
+          />
+          <i
+            className="ant-spin-dot-item"
+          />
+          <i
+            className="ant-spin-dot-item"
+          />
+        </span>
+      </div>
+    </Spin>
+  </div>
+</Loding>
+`;

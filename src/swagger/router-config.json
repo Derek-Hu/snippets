@@ -1,0 +1,257 @@
+{
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/basic/new-approvel-center/common/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/newApprovelCenter/common",
+      {
+        "async": true,
+        "chunk": "newApprovelCommon"
+      }
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/anti-fraud-detail/index.tsx": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud/antiFraudDetail"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/basic/new-approvel-center/detail/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/newApprovelCenter/:routePath/detail",
+      {
+        "async": true,
+        "chunk": "newApproveDetail"
+      }
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/basic/new-approvel-center/common/List/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/newApprovelCenter/:routerName/:applicationId"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/system-manage/authority-manage/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/systemManage/authorityManage",
+      {}
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/basic/search/order-search/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/search",
+      {}
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/basic/search/order-info/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/search/orderinfo",
+      {}
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/basic/new-approvel-center/sx-approved-list/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/newApprovelCenter/sx-approvedList"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/basic/new-approvel-center/support-query/search/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/newApprovelCenter/supportQuery"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/basic/new-approvel-center/credit-inquiry/search/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/newApprovelCenter/creditInquiry"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/system-manage/index.tsx": {
+    "callee": "Controller",
+    "params": [
+      "/systemManage"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/index.tsx": {
+    "callee": "Controller",
+    "params": [
+      "/"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/basic.layout.js": {
+    "callee": "Controller",
+    "params": [
+      "/",
+      {
+        "layout": true
+      }
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/group-manage/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud/groupManage",
+      {}
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/system-manage/project-configs/index.tsx": {
+    "callee": "Controller",
+    "params": [
+      [
+        [
+          "/systemManage/v2/:tabName/:mode/project/:projectId/id/:versionId/version/:versionIndex"
+        ],
+        [
+          "/systemManage/v2/:tabName/:mode"
+        ]
+      ]
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/basic/new-approvel-center/credit-approved-list/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/newApprovelCenter/approvedList"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/basic/new-approvel-center/commercial-loans/index.js": {
+    "callee": "Controller",
+    "params": [
+      [
+        [
+          "/newApprovelCenter/commercialLoans"
+        ],
+        [
+          "/newApprovelCenter/commercialLoans/:commercialLoansPage",
+          {
+            "title": ""
+          }
+        ]
+      ]
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/relation-chart-detail/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud/antiFraudDetail/relationChartDetail"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/fraud-blacklist/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud/fraudBlacklist",
+      {}
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/error/index.tsx": {
+    "callee": "Controller",
+    "params": [
+      "/403"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/basic/new-approvel-center/commercial-loans/pages/image/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/newApprovelCenter/image",
+      {
+        "title": ""
+      }
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/basic/new-approvel-center/index.tsx": {
+    "callee": "Controller",
+    "params": [
+      "/newApprovelCenter"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/anti-fraud-report/telephone/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud/antiFraudDetail/telephone",
+      {}
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/anti-fraud-report/photos/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud/antiFraudDetail/photos"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/anti-fraud-report/job/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud/antiFraudDetail/job",
+      {}
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/anti-fraud-report/education/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud/antiFraudDetail/education"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/anti-fraud-report/address/index.js": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud/antiFraudDetail/address"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/basic/new-approvel-center/fraud-survey/index.tsx": {
+    "callee": "Controller",
+    "params": [
+      "/newApprovelCenter/fraudSurvey"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/index.tsx": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/case-statistics/index.tsx": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud/caseStatistics"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/anti-fraud-survey-detail/index.tsx": {
+    "callee": "Controller",
+    "params": [
+      [
+        [
+          "/antiFraud/antiFraudSurveyDetail"
+        ],
+        [
+          "/antiFraud/antiFraudSurveyDetail/:antiFraudSurveyPage"
+        ]
+      ]
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/anti-fraud-report/order/index.tsx": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud/antiFraudDetail/order"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/anti-fraud-report/communication-detail/index.tsx": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud/communication-detail/:ssn/:name/:phone"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/anti-fraud-report/account/index.tsx": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud/antiFraudDetail/account"
+    ]
+  },
+  "/Users/hubenlv/workspaces/ftc/ftc-saas-rbms-console/rbms-frontend/src/pages/anti-fraud/anti-fraud-report/device/index.tsx": {
+    "callee": "Controller",
+    "params": [
+      "/antiFraud/reportDevice"
+    ]
+  }
+}
